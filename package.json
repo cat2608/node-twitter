@@ -1,25 +1,22 @@
 {
-    "name": "node-twitter",
-    "version": "0.5.2",
-    "description": "A node.js module for interacting with the Twitter API.",
-    "keywords": ["twitter"],
-    "bugs": {
-        "url": "https://github.com/istrategylabs/node-twitter/issues"
-    },
-    "author": "Chris Verwymeren <chris@istrategylabs.com> (http://www.istrategylabs.com)",
-    "contributors": [],
-    "main": "./lib/Twitter",
+    "name"        : "node-twitter",
+    "version"     : "0.5.2",
+    "description" : "A node.js module for interacting with the Twitter API.",
+    "keywords"    : ["twitter"],
+    "author"      : "Chris Verwymeren <chris@istrategylabs.com> (http://www.istrategylabs.com)",
+    "main"        : "./lib/Twitter",
     "directories": {
-        "doc": "./doc",
-        "example": "./examples",
-        "lib": "./lib"
+        "doc"     : "./doc",
+        "example" : "./examples",
+        "lib"     : "./lib"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/istrategylabs/node-twitter.git"
+        "url" : "git://github.com/istrategylabs/node-twitter.git"
     },
     "dependencies": {
-        "request": "2.9.x"
+        "request" : "2.9.x",
+        "hope"    : "*"
     },
     "engines": {
         "node": ">=0.6.x"
