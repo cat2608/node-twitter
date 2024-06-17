@@ -20,7 +20,7 @@
         "assert-plus": "^1.0.0",
         "bunyan": "^1.8.15",
         "hope": "*",
-        "request": "2.9.x",
+        "request": "2.88.x",
         "restify": "^11.1.0"
     },
     "engines": {
